@@ -1,0 +1,37 @@
+.papel {
+    width: 775px;
+    height: 900px;
+    display: flex;
+    align-items: center;    /*Alinha na vertical*/
+    flex-direction: column; /*Define como será distribuido os elemento na horizontal*/
+    background-color: white; /*Setando a cor da folha A4*/
+    border: 1px solid rgb(209, 209, 209); /*Colocando a borda fina*/
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 10px; /*Criando o efeito de sombra da folha*/
+    font-family: Arial, Helvetica, sans-serif; /*Setando a fonte*/
+}
+
+button { /*Configuração pre-setada do botão*/
+    width: 8%;
+    padding: 9px 0;
+    background: #b9b9b9;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .7s all; /*Efeito de carregamento do botão quando a página abre*/
+}
+
+button:hover {
+    background-color: #a3a3a3; /*Mudança de cor quando o mouse passa em cima do botão*/
+    transform: scale(1.08); /*Efeito de aumentar o botão ao passar o mouse em cima*/
+}
+
+.cor {
+    background: #F5F6FB; /*Cor de fundo da página principal. Ela é mais escura que branco para diferenciar da folha, mas não tão mais escuro para não perder a característica*/
+}
+
+.imagem {
+    border-radius: 10px; /*Borda levemente arredondada das imagens geradas*/
+}
